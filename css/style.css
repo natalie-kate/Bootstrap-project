@@ -1,0 +1,181 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert{
+    margin-bottom: 0;
+    color: black;
+    background-color: #fffcc9;
+    border-radius: 0;
+    border-color: transparent;
+}
+
+.site-wide-alert > strong{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.site-wide-alert a{
+    color: darkred;
+}
+
+.callout-container{
+    height: 100vh;
+    background: url("../media/whiskey1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand{
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a{
+    color: white;
+}
+
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav a:active,
+.navbar .navbar-nav a:focus,
+.navbar .navbar-nav a:active:focus{
+    color: #288cf7;
+}
+
+#navbarNavDropdown .active{
+    color: #288cf7;
+}
+    
+.navbar .navbar-nav .dropdown-item{
+    background-color: black;
+}
+
+.navbar-text{
+    color:white;
+}
+
+.dropdown-menu{
+    background-color: black;
+
+}
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.jumbotron small{
+    font-size: 100%;
+    font-style: italic;
+    color: white;
+    margin: 25px 25px;
+}
+
+.jumbotron .lead{
+    color: white;
+    font-size: 1.25rem;
+    margin: 25px 0;
+}
+
+.jumbotron .highlight{
+    background-color: #ffc107;
+}
+
+/*Block dividers*/
+
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider-blue{
+    background-color: #288cf7;
+}
+
+/*buttons*/
+
+.btn-cta{
+    font-weight: bold;
+    width: 160px;
+    border-radius: 25px;
+}
+
+.btn-blue{
+    background-color: #288cf7;
+    margin: 25px;
+    color:black;
+
+}
+
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus,
+.btn-blue:active:focus {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-attention:hover,
+.btn-attention:active,
+.btn-attention:focus,
+.btn-attention:active:focus{
+     width: 170px;
+     height: 60px;
+     text-transform: uppercase;
+}
+
+
+
+
+
