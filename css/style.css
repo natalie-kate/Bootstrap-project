@@ -1,7 +1,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    position: relative;
 }
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*Alert*/
 
 .alert-container .col-12{
     padding-left: 0;
@@ -24,6 +30,9 @@ body{
 .site-wide-alert a{
     color: darkred;
 }
+
+
+/*Callout*/
 
 .callout-container{
     height: 100vh;
@@ -63,52 +72,49 @@ body{
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.75)
-}
+    background-color: rgba(0, 0, 0, 0.25);
 
-.navbar .navbar-toggler {
+}
+.navbar .navbar-toggler{
     border: 0;
 }
 
-.navbar-brand{
+.navbar .navbar-brand{
     color: #ffc107;
     font-weight: bold;
 }
 
-.navbar .navbar-nav a{
+.navbar-dark .navbar-nav .nav-link{
     color: white;
 }
 
-.navbar .navbar-nav a:hover,
-.navbar .navbar-nav a:active,
-.navbar .navbar-nav a:focus,
-.navbar .navbar-nav a:active:focus{
-    color: #288cf7;
+#navbarNavDropdown .nav-link:hover,
+#navbarNavDropdown .nav-link:focus,
+#navbarNavDropdown .nav-link:active,
+#navbarNavDropdown .nav-link:active:focus{
+       color: #288cf7;
 }
 
-#navbarNavDropdown .active{
-    color: #288cf7;
-}
-    
-.navbar .navbar-nav .dropdown-item{
-    background-color: black;
-}
-
-.navbar-text{
-    color:white;
+#navbarNavDropdown .dropdown-item:hover,
+#navbarNavDropdown .dropdown-item:focus,
+#navbarNavDropdown .dropdown-item:active,
+#navbarNavDropdown .dropdown-item:active:focus{
+       color: #288cf7;
 }
 
-.dropdown-menu{
-    background-color: black;
-
+.nav-signup{
+    justify-content:right;
+    text-align:right;
+    justify-content:right;
 }
+
 /*Jumbotron*/
 
 .jumbotron {
     background-color: transparent;
 }
 
-.jumbotron-header{
+.jumbotron h1 {
     color: white;
     margin-bottom: 30px;
     font-weight: bold;
@@ -123,13 +129,25 @@ body{
 
 .jumbotron .lead{
     color: white;
-    font-size: 1.25rem;
     margin: 25px 0;
 }
 
 .jumbotron .highlight{
     background-color: #ffc107;
 }
+
+/*Page Headers*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 
 /*Block dividers*/
 
@@ -143,17 +161,22 @@ body{
     background-color: #288cf7;
 }
 
+.block-divider-oranger{
+    background-color: #ffc107;
+}
+
+
 /*buttons*/
 
 .btn-cta{
-    font-weight: bold;
-    width: 160px;
-    border-radius: 25px;
+    margin:25px
 }
 
 .btn-blue{
     background-color: #288cf7;
-    margin: 25px;
+    font-weight: bold;
+    width: 160px;
+    border-radius: 25px;
     color:black;
 
 }
@@ -175,7 +198,69 @@ body{
      text-transform: uppercase;
 }
 
+/*Quote*/
 
+.col-12 .media-body{
+    text-align: center;
+    
+}
 
+.col-12 .media{
+    justify-content: center;
+}
 
+.blockquote-footer{
+    color: #288cf7;
+}
 
+.quotes-container{
+    background-color: #ffc107;
+}
+
+/*Features*/
+
+.features-container{
+    background: url("../media/whiskey2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  
+}
+.features{
+    text-align: center;
+    color:white;
+    margin-bottom: 40px;
+}
+
+.feature i{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    color: #ffc107;
+}
+
+.features h2{
+    color: #288cf7;
+}
+
+/*Favourites*/
+.favourites thead th{
+    border-bottom: 2px solid #343a40;
+    border-top: 2px solid #343a40;
+}
+
+.favourites-container{
+    background-color: rgba(100, 170, 245, 0.25);
+    
+}
+table caption{
+    color: #004998;
+}
