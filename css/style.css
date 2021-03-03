@@ -119,12 +119,12 @@ body{
     color: white;
     margin-bottom: 30px;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1;
 }
 
 .jumbotron small{
-    font-size: 100%;
+    font-size: 80%;
     font-style: italic;
     color: white;
     margin: 25px 25px;
@@ -142,6 +142,10 @@ body{
 .jumbotron p button{
         margin: 0;
     }
+
+.callout-container .col-12{
+    padding-top: 10px;
+}
 
 /*Page Headers*/
 
@@ -281,10 +285,13 @@ table caption{
 
     .jumbotron{
         margin-bottom: 32px;
-     
     }
     
     p.text-muted{
         margin: 25px; 
+    }
+
+    .jumbotron small{
+        font-size: 100%;
     }
 }
