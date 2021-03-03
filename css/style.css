@@ -111,12 +111,16 @@ body{
 
 .jumbotron {
     background-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
 .jumbotron h1 {
     color: white;
     margin-bottom: 30px;
     font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
 }
 
 .jumbotron small{
@@ -134,6 +138,10 @@ body{
 .jumbotron .highlight{
     background-color: #ffc107;
 }
+
+.jumbotron p button{
+        margin: 0;
+    }
 
 /*Page Headers*/
 
@@ -261,3 +269,22 @@ body{
 table caption{
     color: #004998;
 }
+@media(min-width:576px){
+    h1.jumbotron-header{
+        font-size: 2.5rem;
+        line-height: 1.2
+    }
+
+    .jumbotron p button{
+        margin: 25px;
+    }
+
+    .jumbotron{
+        margin-bottom: 32px;
+     
+    }
+    
+    p.text-muted{
+        margin: 25px; 
+    }
+    
