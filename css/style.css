@@ -31,7 +31,6 @@ body{
     color: darkred;
 }
 
-
 /*Callout*/
 
 .callout-container{
@@ -178,7 +177,6 @@ body{
     width: 160px;
     border-radius: 25px;
     color:black;
-
 }
 
 .btn-blue:hover,
@@ -201,8 +199,7 @@ body{
 /*Quote*/
 
 .col-12 .media-body{
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .col-12 .media{
@@ -220,7 +217,7 @@ body{
 /*Features*/
 
 .features-container{
-    background: url("../media/whiskey2.jpg") no-repeat center center fixed; 
+  background: url("../media/whiskey2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -229,10 +226,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-
-  
+  position: relative; 
 }
+
 .features{
     text-align: center;
     color:white;
@@ -252,6 +248,7 @@ body{
 }
 
 /*Favourites*/
+
 .favourites thead th{
     border-bottom: 2px solid #343a40;
     border-top: 2px solid #343a40;
