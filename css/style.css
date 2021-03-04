@@ -111,7 +111,7 @@ body{
 
 .jumbotron {
     background-color: transparent;
-    margin: 0;
+    margin-top: 25px;
     padding: 0;
 }
 
@@ -234,6 +234,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  object-fit: contain;
 
   display: flex;
   align-items: center;
