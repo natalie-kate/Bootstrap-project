@@ -34,13 +34,13 @@ body{
 /*Callout*/
 
 .callout-container{
-    min-height: 100vh;
-    background: url("../media/whisky1.jpg") no-repeat center center fixed; 
+    height: 100vh;
+    background: url("../media/whiskey1.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  object-fit: contain;
+  
   display: flex;
   align-items: center;
   justify-content: center;
