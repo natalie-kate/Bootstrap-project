@@ -34,7 +34,11 @@ body{
 /*Callout*/
 
 .callout-container{
+<<<<<<< HEAD
     min-height: 100vh;
+=======
+    height: 100vh;
+>>>>>>> a424125aeffef683b0a691883d4c91fec7ed01fa
     background: url("../media/whisky1.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
