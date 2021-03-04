@@ -1,45 +1,102 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Whiskey Drop Project Website</h1>
 
-Welcome USER_NAME,
+Here is a link to the live project. (https://natalie-kate.github.io/Whiskey-Drop/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This was a project created by coding along with the Code Instituted Bootstrap lessons.
 
-## Gitpod Reminders
+I changed some of the styling to put my own spin on it and added media queries to allow it to be fully responsive.
+<h2 align="center"><img src="/media/whiskey-drop.png"><h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
+I did not do user stories, design or wireframes due to this being a project outlined and designed by Code Institute, the learning outcome being the use and modification of bootstrap.
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: *Make Public*,
+-   Responsive on all device sizes
 
-Another blue button should appear to click: *Open Browser*.
+-   Interactive elements
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Technologies Used
 
-A blue button should appear to click: *Make Public*,
+### Languages Used
 
-Another blue button should appear to click: *Open Browser*.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Frameworks, Libraries & Programs Used
 
-## Updates Since The Instructional Video
+1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+    - Bootstrap was used for the initial layout and styling before customising it.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [TinyJPG:](https://tinyjpg.com/)
+    - TinyJPG was used to optimise the images of Whiskey I used in my design.
+1. [Am I responsive:](http://ami.responsivedesign.is/)
+    - This was used to generate the image at the top of this README.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Highlighted to add in alt attributes to the images within quote section which I did
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Testing User Stories from User Experience (UX) Section
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-   Did not perform this due to having no user stories to test.
 
---------
+   
 
-Happy coding!
+### Further Testing
+
+-   The Website was tested using chrome dev tools on devices available there.
+-   The website was viewed on chrome, safari and internet explorer browsers.  
+-   Viewed through website link on Macbook air 13", Dell 21" HD screen, iphone 11 and Dell 17" laptop.
+
+### Known Bugs
+
+-   When viewing with chrome dev tools galaxy fold device option a white bar appearson right hand side.
+-   Menu drop down is opaque which makes the mene choices hard to read before they are hovered over.
+-   When viewing in real life, by plugging website into browser on iphone or laptop pictures are not rendering properly. 
+-   On some devices when viewing in landscape mode the jumbatron header is under the nav and alert. 
+
+
+## Credits
+
+### Code
+
+-   Code Institute Bootstrapping Your Next Big Idea With Bootstrap 4 lessons
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling.
+
+
+### Content
+
+-   Code Institute Bootstrapping Your Next Big Idea With Bootstrap 4 lessons
+
+-   README layout from https://github.com/Code-Institute-Solutions/SampleREADME
+
+
+### Media
+
+-   girl-image, guy-image Code Institute Bootstrapping Your Next Big Idea With Bootstrap 4 lessons
+
+-   whiskey1 https://www.pexels.com/@prem-pal-singh-193018
+
+-   whiskey2 https://www.pexels.com/photo/clear-drinking-glass-with-hard-liquor-3912221/
+
+
+### Acknowledgements
+
+-   Code institute. 
+
+
