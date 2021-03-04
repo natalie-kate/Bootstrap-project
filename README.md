@@ -59,15 +59,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested using chrome dev tools on devices available there.
--   The website was viewed on chrome, safari and internet explorer browsers.  
--   Viewed through website link on Macbook air 13", Dell 21" HD screen, iphone 11 and Dell 17" laptop.
+-   The website was viewed on chrome, safari, internet explorer, microsoft edge and chrome for android
+-   Viewed through website link on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
 
 ### Known Bugs
 
 -   When viewing with chrome dev tools galaxy fold device option a white bar appearson right hand side.
--   Menu drop down is opaque which makes the mene choices hard to read before they are hovered over.
--   When viewing in real life, by plugging website into browser on iphone or laptop pictures are not rendering properly. 
+-   Menu drop down is opaque which makes the menu choices hard to read before they are hovered over.
+-   When viewing in real life, by plugging website into chrome and safari on iphone 11 pictures are not rendering properly. 
 -   On some devices when viewing in landscape mode the jumbatron header is under the nav and alert. 
+-   When viewing with internet explorer the heading and paragraph in the jumbotron were displaying in one long line down the center of the screen into the following section.
 
 
 ## Credits
